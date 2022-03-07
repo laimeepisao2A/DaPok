@@ -97,6 +97,7 @@ text1: {
     lineHeight: 15,
     letterSpacing: 0.25,
     color: "#4D4D4D",
+
     },
 placeholder: {
     alignSelf: "center",
