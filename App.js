@@ -27,9 +27,10 @@ import { createStackNavigator } from "@react-navigation/stack";
 
 import LandingScreen from './components/auth/Landing'
 import RegisterScreen from './components/auth/Register'
+import LoginScreen from './components/auth/Login'
 
 
-const Stack = createStackNavigator();
+const Stack = createStackNavigator(); 
 
 
 export default function App(){
@@ -43,7 +44,12 @@ export default function App(){
               
           <Stack.Screen 
               name ="Register" 
-              component = {RegisterScreen} />
+              component = {RegisterScreen}
+              options = {{headerShown: false}} />
+
+          <Stack.Screen 
+              name ="Login" 
+              component = {LoginScreen} />
       </Stack.Navigator>
 
     </NavigationContainer>

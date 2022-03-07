@@ -10,9 +10,9 @@ import {
   ScrollView,
 } from "react-native";
 
-import { TextInput } from "react-native-paper";
+// import { TextInput } from "react-native-paper";
 
-import Svg, { Path, G, Rect, Polygon, Title } from "react-native-svg";
+// import Svg, { Path, G, Rect, Polygon, Title } from "react-native-svg";
 import RegisterScreen from "./Register";
 import firebase from "firebase/app";
 import Register from "./Register";
